@@ -10,4 +10,4 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
 
 server:
-  port: 8100
+  port: 8180
