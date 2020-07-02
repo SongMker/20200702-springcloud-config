@@ -1,2 +1,13 @@
+spring:
+  profiles: dev
+  application:
+    name: config-server-dev
+  datasource:
+    url: jdbc:mysql://192.168.3.1:3306/demo/useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
 server:
-  prot: 8088
+  port: 8100
